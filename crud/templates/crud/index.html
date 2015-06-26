@@ -1,5 +1,25 @@
 {% extends "crud/base.html" %}
 
 {% block content %}
-    {{ message }}
+
+    {% if people %}
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Age</th>
+            </tr>
+        {% for person in people %}
+            <tr>
+                <td>{{ person.name }}</td>
+                <td>{{ person.phone }}</td>
+                <td>{{ person.age }}</td>
+            </tr>
+        {% endfor %}
+
+        </table>
+    {% else %}
+    <p>No, people in the database</p>
+    {% endif %}
+
 {% endblock %}

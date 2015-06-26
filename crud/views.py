@@ -7,7 +7,9 @@ from .models import Person
 # Create your views here.
 
 def index(request):
-    return render_to_response('crud/index.html',{'message':'Hello world!'})
+    people = Person.objects.all();
+
+    return render_to_response('crud/index.html',{'people':people})
 
 def inset(request):
     #if this is a post request we insert the person
