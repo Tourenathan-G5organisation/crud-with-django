@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.template import loader, context, RequestContext
 from django.shortcuts import render_to_response
 from .models import Person
@@ -24,3 +24,10 @@ def inset(request):
     t = loader.get_template('crud/insert.html')
     c = RequestContext(request)
     return HttpResponse(t.render(c))
+
+
+def delete(request, person_id):
+    p = Person.objects.get(pk=person_id)
+    p.delete()
+    return  HttpResponseRedirect('/')
+
