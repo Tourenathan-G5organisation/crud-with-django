@@ -10,4 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'crud.views.index', name='index'),
+    url(r'^insert$', 'crud.views.inset', name='inset'),
 )

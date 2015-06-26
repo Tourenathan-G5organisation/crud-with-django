@@ -1,0 +1,21 @@
+{% extends "crud/base.html" %}
+
+{% block content %}
+    <h2>Insert form</h2>
+    <form method="post">
+{% csrf_token %}
+    <label>Name: </label>
+    <input name="name" type="text">
+
+    <br/><br/>
+
+    <label>Phone: </label>
+    <input name="phone" type="tel">
+    <br><br/>
+    <label>Age:&nbsp; </label>
+    <input name="age" type="number">
+    <br><br/>
+
+    <input type="submit" value="Submit">
+    </form>
+{% endblock %}

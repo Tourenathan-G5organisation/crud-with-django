@@ -3,10 +3,8 @@
   <component name="DataSourceManagerImpl" format="xml" hash="1580525186">
     <data-source source="LOCAL" name="Django default" uuid="81b9631d-fc65-4e02-99a7-b3afddeb448d">
       <driver-ref>mysql</driver-ref>
-      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql:///djangocrudtest</jdbc-url>
-      <user-name>root</user-name>
-      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:D:\SCHOOL\YEAR 4\Semester 2\CEF506-Python\SimpleCrud\crud.sqlite3</jdbc-url>
       <libraries />
     </data-source>
   </component>
