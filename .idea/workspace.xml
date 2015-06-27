@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9e2c1f98-4126-4024-a8fb-de044872078e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud.sqlite3" afterPath="$PROJECT_DIR$/crud.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/base.html" afterPath="$PROJECT_DIR$/crud/templates/crud/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/index.html" afterPath="$PROJECT_DIR$/crud/templates/crud/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/insert.html" afterPath="$PROJECT_DIR$/crud/templates/crud/insert.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SimpleCrud/urls.py" afterPath="$PROJECT_DIR$/SimpleCrud/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/views.py" afterPath="$PROJECT_DIR$/crud/views.py" />
     </list>
     <ignored path="SimpleCrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,19 +54,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
+            <state line="11" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.329806" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud/templates/crud/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="15" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5696649" vertical-offset="0" max-vertical-offset="567">
+            <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.8461537" vertical-offset="28" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -86,9 +84,11 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="4" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="884">
+            <state line="44" column="4" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="70" max-vertical-offset="884">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
+                <marker date="1435363571906" expanded="true" signature="807:901" placeholder="..." />
+                <marker date="1435363571906" expanded="true" signature="947:1284" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -109,11 +109,11 @@
       <list>
         <option value="$PROJECT_DIR$/SimpleCrud/settings.py" />
         <option value="$PROJECT_DIR$/crud/models.py" />
-        <option value="$PROJECT_DIR$/crud/templates/crud/base.html" />
         <option value="$PROJECT_DIR$/SimpleCrud/urls.py" />
         <option value="$PROJECT_DIR$/crud/templates/crud/insert.html" />
         <option value="$PROJECT_DIR$/crud/views.py" />
         <option value="$PROJECT_DIR$/crud/templates/crud/index.html" />
+        <option value="$PROJECT_DIR$/crud/templates/crud/base.html" />
       </list>
     </option>
   </component>
@@ -519,6 +519,8 @@
         <state line="7" column="29" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="221">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+            <marker date="1435363571906" expanded="true" signature="807:901" placeholder="..." />
+            <marker date="1435363571906" expanded="true" signature="947:1284" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -544,22 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="4" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="884">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="101" selection-end="101" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="238">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crud/templates/crud/insert.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="54" selection-start="490" selection-end="490" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="476">
@@ -567,9 +553,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/crud/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="4" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="884">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1435363571906" expanded="true" signature="807:901" placeholder="..." />
+            <marker date="1435363571906" expanded="true" signature="947:1284" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/crud/templates/crud/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="15" selection-start="594" selection-end="594" vertical-scroll-proportion="0.5696649" vertical-offset="0" max-vertical-offset="567">
+        <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.8461537" vertical-offset="28" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.329806" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
