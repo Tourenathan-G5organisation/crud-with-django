@@ -5,6 +5,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud.sqlite3" afterPath="$PROJECT_DIR$/crud.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/base.html" afterPath="$PROJECT_DIR$/crud/templates/crud/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/index.html" afterPath="$PROJECT_DIR$/crud/templates/crud/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crud/templates/crud/insert.html" afterPath="$PROJECT_DIR$/crud/templates/crud/insert.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SimpleCrud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,19 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="insert.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="insert.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crud/templates/crud/insert.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="54" selection-start="490" selection-end="490" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="476">
+            <state line="24" column="22" selection-start="582" selection-end="582" vertical-scroll-proportion="0.7195767" vertical-offset="0" max-vertical-offset="567">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.329806" vertical-offset="0" max-vertical-offset="567">
+            <state line="13" column="35" selection-start="296" selection-end="296" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -66,7 +68,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crud/templates/crud/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.8461537" vertical-offset="28" max-vertical-offset="595">
+            <state line="15" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="595">
               <folding />
             </state>
           </provider>
@@ -110,10 +112,10 @@
         <option value="$PROJECT_DIR$/SimpleCrud/settings.py" />
         <option value="$PROJECT_DIR$/crud/models.py" />
         <option value="$PROJECT_DIR$/SimpleCrud/urls.py" />
-        <option value="$PROJECT_DIR$/crud/templates/crud/insert.html" />
         <option value="$PROJECT_DIR$/crud/views.py" />
         <option value="$PROJECT_DIR$/crud/templates/crud/index.html" />
         <option value="$PROJECT_DIR$/crud/templates/crud/base.html" />
+        <option value="$PROJECT_DIR$/crud/templates/crud/insert.html" />
       </list>
     </option>
   </component>
@@ -546,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud/templates/crud/insert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="54" selection-start="490" selection-end="490" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="476">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crud/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="4" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="884">
@@ -564,16 +559,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud/templates/crud/index.html">
+    <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="135" selection-end="135" vertical-scroll-proportion="-2.8461537" vertical-offset="28" max-vertical-offset="595">
+        <state line="13" column="35" selection-start="296" selection-end="296" vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="442">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crud/templates/crud/base.html">
+    <entry file="file://$PROJECT_DIR$/crud/templates/crud/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="28" selection-start="245" selection-end="245" vertical-scroll-proportion="0.329806" vertical-offset="0" max-vertical-offset="567">
+        <state line="15" column="31" selection-start="388" selection-end="388" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crud/templates/crud/insert.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="22" selection-start="582" selection-end="582" vertical-scroll-proportion="0.7195767" vertical-offset="0" max-vertical-offset="567">
           <folding />
         </state>
       </provider>
