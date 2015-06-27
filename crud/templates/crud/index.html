@@ -3,6 +3,7 @@
 {% block content %}
 
     {% if people %}
+        <h1>List of People in the database</h1>
         <table>
             <tr>
                 <th>Name</th>
@@ -15,6 +16,7 @@
                 <td>{{ person.phone }}</td>
                 <td>{{ person.age }}</td>
                 <td><a href="/delete/{{ person.id }}">Delete</a></td>
+                <td><a href="/edit/{{ person.id }}">Edit</a></td>
             </tr>
         {% endfor %}
 

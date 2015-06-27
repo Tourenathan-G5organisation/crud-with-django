@@ -5,16 +5,18 @@
     <form method="post">
 {% csrf_token %}
     <label>Name: </label>
-    <input name="name" type="text">
+    <input name="name" type="text" value="{{ person.name }}">
 
     <br/><br/>
 
     <label>Phone: </label>
-    <input name="phone" type="tel">
+    <input name="phone" type="tel" value="{{ person.phone }}">
     <br><br/>
     <label>Age:&nbsp; </label>
-    <input name="age" type="number">
+    <input name="age" type="number" value="{{ person.age }}">
     <br><br/>
+
+    <input type="hidden" name="id" value="{{ person.id }}">
 
     <input type="submit" value="Submit">
     </form>

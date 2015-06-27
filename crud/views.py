@@ -31,3 +31,16 @@ def delete(request, person_id):
     p.delete()
     return  HttpResponseRedirect('/')
 
+#Edit function
+def edit(request, person_id):
+    p = Person.objects.get(pk=person_id)
+    if request.method == 'POST':
+        p.name = request.POST['name']
+        p.phone = request.POST['phone']
+        p.age = request.POST['age']
+        p.save()
+
+    t = loader.get_template('crud/insert.html')
+    c = RequestContext(request, {'person':p})
+    return HttpResponse(t.render(c))
+

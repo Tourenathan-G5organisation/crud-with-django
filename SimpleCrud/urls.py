@@ -12,6 +12,7 @@ urlpatterns = patterns('',
     url(r'^$', 'crud.views.index', name='index'),
     url(r'^insert$', 'crud.views.inset', name='inset'),
     url(r'^delete/(?P<person_id>\d+)$', 'crud.views.delete', name='delete'),
-    
+    url(r'^edit/(?P<person_id>\d+)$', 'crud.views.edit', name='edit'),
+
 
 )
